@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.OOPS.Inheritance
+package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Inheritance
 interface Mathematics
 {
     fun sum(a:Int,b:Int):Int
@@ -6,7 +6,7 @@ interface Mathematics
     fun product(a:Int,b:Int):Int
     fun ratio(a:Int,b:Int):Float
 }
-open class Calculator:Mathematics
+open class Calculator: Mathematics
 {
     override fun sum(a: Int, b: Int): Int {
         return a+b
@@ -24,7 +24,7 @@ open class Calculator:Mathematics
         return a/b.toFloat()
     }
 }
-class ScientiificCalculator:Calculator()
+class ScientiificCalculator: Calculator()
 {
     fun square(a:Int):Double
     {

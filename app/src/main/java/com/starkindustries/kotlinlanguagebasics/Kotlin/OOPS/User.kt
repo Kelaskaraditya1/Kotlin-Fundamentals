@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.OOPS
+package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS
 // Default constructor
 open class User
 {
@@ -32,9 +32,9 @@ open class User
         @JvmStatic
         fun main(args:Array<String>)
         {
-            val obj1=User("2021FHCO042","Aditya Kelaskar",54,"Computer")
+            val obj1= User("2021FHCO042","Aditya Kelaskar",54,"Computer")
             obj1.print_user()
-            val obj2=User("Mayur",56,"computer")
+            val obj2= User("Mayur",56,"computer")
             obj2.print_user()
         }
     }

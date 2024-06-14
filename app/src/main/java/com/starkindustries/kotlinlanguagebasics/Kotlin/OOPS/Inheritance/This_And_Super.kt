@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.OOPS.Inheritance
+package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Inheritance
 open class Vehicle(engineNo:String)
 {
     lateinit var engineNo:String
@@ -19,7 +19,7 @@ open class Vehicle(engineNo:String)
         this.printEngineNo()
     }
 }
-class Car(engineNo: String,carName:String,registrationNo:String):Vehicle(engineNo)
+class Car(engineNo: String,carName:String,registrationNo:String): Vehicle(engineNo)
 {
     lateinit var carName:String
     lateinit var registrationNo:String

@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.OOPS.Inheritance
+package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Inheritance
 open class Parent(name_:String,age_:Int,education_:String,phone_no_:String)
 {
     open lateinit var name:String
@@ -21,7 +21,8 @@ open class Parent(name_:String,age_:Int,education_:String,phone_no_:String)
     }
 
 }
-class Son(name:String,fathers_name_:String,age:Int,education:String,phone_no: String):Parent(name,age,education,phone_no)
+class Son(name:String,fathers_name_:String,age:Int,education:String,phone_no: String):
+    Parent(name,age,education,phone_no)
 {
      lateinit var son_name:String
     lateinit var fathers_namme:String

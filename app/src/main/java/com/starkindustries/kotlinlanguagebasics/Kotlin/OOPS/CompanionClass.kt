@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.OOPS
+package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS
 class CompanionClass
 {
     val a=10
@@ -19,8 +19,8 @@ class CompanionClass
             val companion = CompanionClass()
             println("The value of a is:"+companion.a)
             println("The value of sum is:"+companion.add(10,20))
-            println("The value of b is:"+CompanionClass.b)
-            println("The value of product is:"+CompanionClass.product(10,20))
+            println("The value of b is:"+ b)
+            println("The value of product is:"+ product(10,20))
         }
     }
 
