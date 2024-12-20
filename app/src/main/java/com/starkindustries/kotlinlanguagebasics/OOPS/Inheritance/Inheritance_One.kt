@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Inheritance
+package com.starkindustries.kotlinlanguagebasics.OOPS.Inheritance
 open class Parent(name_:String,age_:Int,education_:String,phone_no_:String)
 {
     open lateinit var name:String

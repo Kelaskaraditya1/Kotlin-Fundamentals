@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS
+package com.starkindustries.kotlinlanguagebasics.Core
 class Main
 {
     companion object

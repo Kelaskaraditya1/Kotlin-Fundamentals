@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Abstraction
+package com.starkindustries.kotlinlanguagebasics.OOPS.Abstraction
 abstract class Calculator
 {
     abstract fun add(a:Int,b:Int):Int

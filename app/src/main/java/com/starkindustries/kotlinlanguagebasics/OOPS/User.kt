@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS
+package com.starkindustries.kotlinlanguagebasics.OOPS
 // Default constructor
 open class User
 {

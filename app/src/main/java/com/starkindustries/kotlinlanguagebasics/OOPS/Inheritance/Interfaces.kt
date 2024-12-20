@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Inheritance
+package com.starkindustries.kotlinlanguagebasics.OOPS.Inheritance
 interface Mathematics
 {
     fun sum(a:Int,b:Int):Int

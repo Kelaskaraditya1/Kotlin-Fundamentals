@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS.Inheritance
+package com.starkindustries.kotlinlanguagebasics.OOPS.Inheritance
 open class Vehicle(engineNo:String)
 {
     lateinit var engineNo:String

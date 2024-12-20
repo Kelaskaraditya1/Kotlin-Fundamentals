@@ -1,4 +1,4 @@
-package com.starkindustries.kotlinlanguagebasics.Kotlin.OOPS
+package com.starkindustries.kotlinlanguagebasics.Core
 val add={a:Int,b:Int->a+b}
 val printme = {println("I am Ironman")}
 fun higherOrderOne(param:()->Unit)
